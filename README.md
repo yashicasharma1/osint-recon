@@ -64,7 +64,7 @@ flowchart TD
     C --> E[Report Generation]
     D --> E
     E --> F[SQLite Database Logging]
-
+```
 
 📂 Project Structure
 main.py            → Entry point  
