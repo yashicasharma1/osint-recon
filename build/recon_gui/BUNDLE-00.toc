@@ -1,0 +1,1 @@
+([('recon_gui', '/Users/divyansh/Desktop/osint/dist/recon_gui', 'EXECUTABLE')],)

@@ -1,0 +1,84 @@
+
+[+] IP Address: 2.18.53.207
+
+[+] DNS Records:
+A: 2.18.54.207
+A: 2.18.53.207
+A: 2.18.49.207
+A: 2.18.52.207
+A: 2.18.48.207
+A: 2.18.51.207
+A: 2.18.50.207
+A: 2.18.55.207
+A: 23.40.100.207
+A: 23.7.244.207
+MX: 10 tesla-com.mail.protection.outlook.com.
+NS: a12-64.akam.net.
+NS: a7-66.akam.net.
+NS: a28-65.akam.net.
+NS: a10-67.akam.net.
+NS: a9-67.akam.net.
+NS: edns69.ultradns.com.
+NS: a1-12.akam.net.
+
+[+] Checking common subdomains...
+[Basic] www.tesla.com
+
+[+] Fetching real subdomains from crt.sh...
+[-] crt.sh returned status code: 503
+
+[+] Fetching subdomains from Hackertarget API...
+[Hackertarget] tesla.com
+[Hackertarget] accounts.tesla.com
+[Hackertarget] akamai-apigateway-vehicleextinfogw-prdsvc-st.tesla.com
+[Hackertarget] ams13-gpgw1.tesla.com
+[Hackertarget] apac-cppm.tesla.com
+[Hackertarget] assets-ir.tesla.com
+[Hackertarget] auth.tesla.com
+[Hackertarget] autodiscover.tesla.com
+[Hackertarget] bettertime.tesla.com
+[Hackertarget] bettertime-stage.tesla.com
+[Hackertarget] billing.tesla.com
+[Hackertarget] bolt.tesla.com
+[Hackertarget] cdn-design.tesla.com
+[Hackertarget] media-server-qr.prd.america.vn.cloud.tesla.com
+[Hackertarget] mobile-links.eng.vn.cloud.tesla.com
+[Hackertarget] fleet-api.prd.eu.vn.cloud.tesla.com
+[Hackertarget] auth.prd.euw1.vn.cloud.tesla.com
+[Hackertarget] dex.ops.bn.na.vn.cloud.tesla.com
+[Hackertarget] fleet-api.eng.na.vn.cloud.tesla.com
+[Hackertarget] fleet-api.prd.na.vn.cloud.tesla.com
+[Hackertarget] fleet-auth.prd.vn.cloud.tesla.com
+[Hackertarget] media-server-api.prd.vn.cloud.tesla.com
+[Hackertarget] mobile-links.prd.vn.cloud.tesla.com
+[Hackertarget] mobile-ops-links.prd.vn.cloud.tesla.com
+[Hackertarget] tripx-alpha.prd.vn.cloud.tesla.com
+[Hackertarget] auth.eng.usw.vn.cloud.tesla.com
+[Hackertarget] auth.prd.usw.vn.cloud.tesla.com
+[Hackertarget] ownerapi-api.prd.usw.vn.cloud.tesla.com
+[Hackertarget] tripx.eng.usw2.vn.cloud.tesla.com
+[Hackertarget] courses.tesla.com
+[Hackertarget] cua-chat-ui.tesla.com
+[Hackertarget] cua-help-me-charge-ui.tesla.com
+[Hackertarget] cua-help-me-choose-ui.tesla.com
+[Hackertarget] cua-test-drive-ui.tesla.com
+[Hackertarget] cyberbeer.tesla.com
+[Hackertarget] dal11-gpgw1.tesla.com
+[Hackertarget] developer.tesla.com
+[Hackertarget] digitalassets.tesla.com
+[Hackertarget] digitalassets-accounts.tesla.com
+[Hackertarget] digitalassets-contents.tesla.com
+[Hackertarget] digitalassets-energy.tesla.com
+[Hackertarget] digitalassets-secure.tesla.com
+[Hackertarget] digitalassets-shop.tesla.com
+[Hackertarget] digitalcontent.tesla.com
+[Hackertarget] dro.tesla.com
+[Hackertarget] echo.tesla.com
+[Hackertarget] edr.tesla.com
+[Hackertarget] edr-eu.tesla.com
+[Hackertarget] click.email.tesla.com
+[Hackertarget] mta.email.tesla.com
+[Hackertarget] mta2.email.tesla.com
+
+[+] Fetching subdomains from ThreatCrowd...
+[-] ThreatCrowd error: HTTPSConnectionPool(host='www.threatcrowd.org', port=443): Max retries exceeded with url: /searchApi/v2/domain/report/?domain=tesla.com (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.threatcrowd.org'. (_ssl.c:1077)")))

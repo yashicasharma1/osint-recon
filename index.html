@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Attack Surface Intelligence</title>
+</head>
+<body>
+
+<h1>Attack Surface Intelligence Platform</h1>
+
+<form method="POST">
+    <input type="text" name="domain" placeholder="Enter domain">
+    <button type="submit">Scan</button>
+</form>
+
+{% if result %}
+<h2>Results</h2>
+
+<p><b>IP:</b> {{ result.ip }}</p>
+
+<h3>DNS</h3>
+<ul>
+{% for d in result.dns %}
+<li>{{ d }}</li>
+{% endfor %}
+</ul>
+
+<h3>Subdomains</h3>
+<ul>
+{% for s in result.subdomains %}
+<li>{{ s }}</li>
+{% endfor %}
+</ul>
+
+<h3>WHOIS</h3>
+<p>{{ result.whois }}</p>
+
+{% endif %}
+
+</body>
