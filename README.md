@@ -54,6 +54,16 @@ Report Generation System
 SQLite Database Logging  
 
 This design ensures separation of concerns, scalability, and structured intelligence gathering.
+## 📊 System Workflow
+
+```mermaid
+flowchart TD
+    A[User (GUI / CLI)] --> B[Recon Engine - recon.py]
+    B --> C[WHOIS Lookup Module]
+    B --> D[Subdomain Enumeration Module]
+    C --> E[Report Generation]
+    D --> E
+    E --> F[SQLite Database Logging]
 📂 Project Structure
 main.py            → Entry point  
 recon.py           → Recon engine  
