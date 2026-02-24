@@ -39,7 +39,21 @@ SQLite database
 GUI (Tkinter / Python UI)
 
 Automation scripts
+## 🧠 Architecture
 
+The OSINT Recon Tool follows a modular pipeline-based architecture:
+
+User Input (GUI / CLI)  
+        ↓  
+Recon Engine (recon.py)  
+        ↓  
+WHOIS & Subdomain Enumeration Modules  
+        ↓  
+Report Generation System  
+        ↓  
+SQLite Database Logging  
+
+This design ensures separation of concerns, scalability, and structured intelligence gathering.
 📂 Project Structure
 main.py            → Entry point  
 recon.py           → Recon engine  
