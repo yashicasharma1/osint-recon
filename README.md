@@ -1,3 +1,14 @@
+<h1 align="center">🔐 OSINT Recon Automation Tool</h1>
+<p align="center">
+Automated Domain Intelligence • Subdomain Enumeration • WHOIS Analysis • Report Generation
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/OSINT-Recon-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+</p>
 🔐 OSINT Recon Automation Tool
 
 A Python-based OSINT reconnaissance toolkit designed to automate domain intelligence gathering, subdomain discovery, WHOIS analysis, and structured reporting.
