@@ -1,3 +1,0 @@
-([('OSINT-Recon',
-   '/Users/divyansh/Desktop/osint/dist/OSINT-Recon',
-   'EXECUTABLE')],)
